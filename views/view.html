@@ -1,0 +1,13 @@
+<div class="center">
+	<p><img ng-src="static/img/{{car.img}}" ng-click="getCar(car.img)" width="50%" /></p>
+	<h3>Name：{{car.name}}</h3>
+
+	<p>Year：{{car.year}}</p>
+	<p>Make：{{car.make}}</p>
+	<p>Model：{{car.model}}</p>
+	<p>Status：{{car.aid | posAvailability}}</p>
+	<p>
+
+		<a href="#/car/list" class="btn btn-secondary">Back</a>
+	</p>
+</div>
